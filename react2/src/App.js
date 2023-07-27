@@ -1,16 +1,18 @@
-import React from 'react';
+import Home from './component/Home';
+import Navbar from './component/Navbar';
 
 function App() {
+
+
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar/>
+      <div className="content">
+
+      <Home/>
+   
+      </div>
+
     </div>
   );
 }
